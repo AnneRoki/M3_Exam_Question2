@@ -1,0 +1,28 @@
+.person {
+    padding: 20px;
+}
+
+.header {
+    padding: 10px;
+    text-align:center;
+    background: rgb(159,226,191);
+    font-size: 20px;
+}
+
+.button {
+    width: 80px;
+    height: 40px;
+    padding: 2px;
+    outline: none;
+    cursor: pointer;
+    margin: 10px 30%;
+    color: green;
+    display: inline-block;
+    transition-duration: 0.7s;
+}
+
+
+
+
+
+
