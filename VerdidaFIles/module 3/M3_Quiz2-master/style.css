@@ -1,0 +1,88 @@
+.container1 {
+    position:relative;
+    width: 1000px;
+    margin: auto;
+    background-color: #8e80e7;
+}
+.container1 canvas,
+.center {
+    position:absolute;
+    top:50vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.column2 {
+    height: 100vh;
+    margin: auto;
+    border-radius: 2ch;
+}
+
+.column3 {
+    
+    margin: auto;
+    height: 10%;
+
+}
+/*Clear floats after the columns */
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+    
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+body{
+    background-image: url('Image/yourname.jpg');
+  /* Full height */
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    
+}
+
+.wrapper{
+    width: 350px;
+    background: rgb(232, 232, 238);
+    border-radius: 15px;
+    margin: 30px auto;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+    
+}
+
+img{
+    width: auto;
+    max-height: 500px;
+    border-radius: 15px;
+}
+
+
+button{
+    width: auto;
+    height: 40px;
+    padding: 7px;
+    outline: none;
+    cursor: pointer;
+    margin: 11px 5%;
+    justify-content: center;
+}
+.heart.png{
+    height: 20px;
+    width: 10px;
+}
+.finaleimage{
+    height: 60px;
+    width: 60px;
+}
+.headertekst{
+    text-align: center;
+  }
